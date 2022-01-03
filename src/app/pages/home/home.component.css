@@ -1,0 +1,12 @@
+.default-mode {
+    @apply flex p-5 rounded-lg bg-our-gray w-full mt-2
+}
+.selected-mode {
+    @apply flex p-5 rounded-lg border-l-4 border-our-blue mt-2 bg-white w-full shadow
+}
+.layer-default{
+    @apply w-9 h-9 rounded-lg bg-white p-1
+}
+.layer-selected{
+    @apply w-9 h-9 rounded-lg bg-our-blue p-1
+}
