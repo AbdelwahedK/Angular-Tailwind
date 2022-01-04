@@ -15,7 +15,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins'],
-     },
+      },
+      fontSize: {
+        '2xs': '0.625rem',
+        '3xs': '0.438rem',
+      },
       colors: {
         'our-green':{
           DEFAULT: '#76B72A'
@@ -30,6 +34,9 @@ module.exports = {
         'our-orange': {
           DEFAULT: '#F29100',
         },
+        'badge-red':{
+          DEFAULT: '#F52F6B',
+        }
         // 'nav-hover-blue': {
         //   DEFAULT: '#286090',
         // },
